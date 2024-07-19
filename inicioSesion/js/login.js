@@ -36,6 +36,6 @@ loginForm.addEventListener('submit', (e) => {
     localStorage.setItem('login_success', JSON.stringify(validUser))
 
     // Redirige al usuario a la página de inicio (index.html)
-    //  window.open('https://buy.stripe.com/test_28o6rKgUG7HLcYEbIL', '_blank');
-    window.location.href = 'index.html'
+    window.open('https://buy.stripe.com/test_28o3etddL6Hp2ek000', '_blank');
+    //window.location.href = 'index.html'
 })
